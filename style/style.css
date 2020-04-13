@@ -27,15 +27,28 @@ button {
     border-top: 2px solid grey;
 }
 
+.nav-link {
+    color: #f8f9fa;
+}
+
 .form {
     padding: 5px;
 }
-
+.navbar {
+    color: white;
+}
 .btn {
-    background-color: #00caca;
-    border: 0px;
-    border-radius: 0rem;
-    width: 20%;
+    background-color: transparent;
+    color: white;
+}
+.modal {
+    color: black;
+}
+.btn-unique {
+    color: black;
+}
+label {
+    color: black;
 }
 
 #container-portfolio {
@@ -55,7 +68,10 @@ button {
 
 #my-photo {
     border: 2px solid black;
+    margin: auto;
+    display: block;
 }
+
 
 .card-text:last-child {
     color: #00caca;
@@ -65,7 +81,29 @@ button {
     width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+    }
+    .card-body {
+        align-items: center;
+    }
+}
 
+@media (min-width: 100px) {
+    h1 {
+        text-align: center!important;
+    }
+}
+
+@media (max-width: 576px) {
+    .bio {
+        text-align: center;
+    }
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
