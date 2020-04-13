@@ -6,7 +6,8 @@ html {
     background-color: #000000!important;
     border-bottom: 2px solid white;
 }
-#icon-text {
+
+.icon-text {
     color: white;
 }
 body {
