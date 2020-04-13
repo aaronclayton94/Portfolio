@@ -2,25 +2,35 @@ html {
     height: 100%;
 }
 
+.bg-dark {
+    background-color: #000000!important;
+    border-bottom: 2px solid white;
+}
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    background-image: url(../style/background.png);
+    background-image: url(../style/dark_grey.jpg);
 }
 
-
+button {
+   border-radius: 8px;
+   background-color: transparent;
+   border: transparent;
+   color: white;
+}
 .sticky-footer {
-    background: gray;
+    background: black;
     color: white;
     margin-top: auto;
-    border-top: 6px solid #00caca;
+    border-top: 2px solid grey;
 }
 
 .form {
     padding: 5px;
 }
+
 .btn {
     background-color: #00caca;
     border: 0px;
@@ -32,20 +42,6 @@ body {
     align-items: flex-start;
 }
 
-.card-text:last-child {
-
-}
-
-.navbar-name {
-    font-size: 30px;
-    background-color: #00caca;
-    color: aliceblue;
-}
-
-h2 {
-    font-size: 30px;
-    color: #00caca;
-}
 
 #contact-hr {
     border-top: 2px solid rgba(0,0,0,.1);
@@ -57,6 +53,9 @@ h2 {
     font-size: 35px;
 }
 
+#my-photo {
+    border: 2px solid black;
+}
 
 .card-text:last-child {
     color: #00caca;
